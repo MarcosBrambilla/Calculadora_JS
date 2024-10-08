@@ -4,32 +4,32 @@
     <meta name="Authors" content="Marcos Brambilla">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triginho 2</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <header>
-        <div id="container-titulo">
-        <h4 id="item-titulo">Calculadora</h4>
-        </div>
-    </header>
     <body>
+        <header>
+            <div id="container-titulo">
+            <h4 id="item-titulo">Calculadora</h4>
+            </div>
+        </header>
         <div id="calculadora-container">
             <label id="resultado">0</label>
-            <button class="buttons" id="btnclr" onclick="limpa_calculo()">C</button>
-            <button class="buttons" id="btn1" onclick="recebe_numeros(1)">1</button>
-            <button class="buttons" id="btn2" onclick="recebe_numeros(2)">2</button>
-            <button class="buttons" id="btn3" onclick="recebe_numeros(3)">3</button>
-            <button class="buttons" id="more" onclick="operacao('+')">+</button>
-            <button class="buttons" id="btn4" onclick="recebe_numeros(4)">4</button>
-            <button class="buttons" id="btn5" onclick="recebe_numeros(5)">5</button>
-            <button class="buttons" id="btn6" onclick="recebe_numeros(6)">6</button>
-            <button class="buttons" id="less" onclick="operacao('-')">-</button>
-            <button class="buttons" id="btn7" onclick="recebe_numeros(7)">7</button>
-            <button class="buttons" id="btn8" onclick="recebe_numeros(8)">8</button>
-            <button class="buttons" id="btn9" onclick="recebe_numeros(9)">9</button>
-            <button class="buttons" id="multiplication" onclick="operacao('*')">*</button>
-            <button class="buttons" id="btn0" onclick="recebe_numeros(0)">0</button>
-            <button class="buttons" id="equal" onclick="result()">=</button>
-            <button class="buttons" id="division" onclick="operacao('/')">/</button>
+            <button class="buttons" id="btnclr">C</button>
+            <button class="buttons" id="btn1">1</button>
+            <button class="buttons" id="btn2">2</button>
+            <button class="buttons" id="btn3">3</button>
+            <button class="buttons" id="more">+</button>
+            <button class="buttons" id="btn4">4</button>
+            <button class="buttons" id="btn5">5</button>
+            <button class="buttons" id="btn6">6</button>
+            <button class="buttons" id="less">-</button>
+            <button class="buttons" id="btn7">7</button>
+            <button class="buttons" id="btn8">8</button>
+            <button class="buttons" id="btn9">9</button>
+            <button class="buttons" id="multiplication">*</button>
+            <button class="buttons" id="btn0">0</button>
+            <button class="buttons" id="equal" onc>=</button>
+            <button class="buttons" id="division">/</button>
     </div>
     </body>
 </html>
